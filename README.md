@@ -1,41 +1,49 @@
 # Student Grade Calculator
 
-## Overview of the Project
-This is a desktop GUI application that lets users calculate their average marks and final grade based on marks entered for multiple subjects. The app provides real-time validation and displays the results and grade clearly. It is designed as an easy-to-use tool for both students and educators.
+## Overview
+A desktop GUI application to calculate student average marks and grades for multiple subjects. Built with Python and Tkinter, it offers user-friendly error handling and instant results.
 
 ## Features
-- Enter number of subjects and dynamically add mark entry fields.
-- Input validation for total subjects (integer > 0) and marks (between 0 and 100).
-- Calculates average and displays assigned grade (A/B/C/D/F).
-- Error messages for invalid input.
-- Simple, intuitive GUI, ready to use.
+- Enter number of subjects and dynamically generate mark entry fields.
+- Input validation for number of subjects and mark values (0–100).
+- Calculates average and assigns grade (A/B/C/D/F).
+- Clear result display and error popups for any invalid input.
 
 ## Technologies/Tools Used
-- Language: Python 3.x
-- GUI Library: Tkinter (standard Python library, no installation needed)
+- Python 3.x
+- Tkinter (standard Python library)
 
-## Steps to Install & Run the Project
-1. Make sure Python 3.x is installed. You can download it from [python.org](https://www.python.org/downloads/).
-2. Clone this repository:
+## Installation & Running
+1. Make sure Python 3.x is installed ([Download Python](https://www.python.org/downloads/)).
+2. Download or clone this repository:
     ```
     git clone https://github.com/<your-username>/<repo-name>.git
     cd <repo-name>
     ```
-3. No extra dependencies are needed — Tkinter is included.
-4. Run the application:
+3. Run the application:
     ```
     python <filename>.py
     ```
+   Replace `<filename>.py` with your actual script, e.g., `grade_calculator.py`.
 
-## Instructions for Testing
-- Launch the app as above.
+## Testing Instructions
+- Open the application.
 - Enter a positive integer for "number of subjects" and click "Create Fields."
-- Fill in marks (0–100) for each subject field shown.
-- Click "Calculate Grade." The calculated average and grade will be displayed.
-- Try out various (valid/invalid) entries to test error handling and robustness.
+- Fill in each subject mark (between 0 and 100).
+- Click "Calculate Grade" to view average and grade.
 
-## Screenshots (optional but recommended)
-<!-- Screenshot Example: -->
-<!-- ![Main window](screenshots/main_window.png) -->
-<!-- Add screenshots here after running the app locally! -->
+## Screenshot
 
+![Final output - Complete student grade calculation with average for 5 subjects](https://agi-prod-file-upload-public-main-use1.s3.amazonaws.com/d1b06713-b9a2-4ba3-bbf3-1df86720e595)
+
+## Contributing
+- Fork the repository.
+- Create a branch for your feature or fix.
+- Submit a pull request for review.
+
+## License
+MIT License
+
+---
+
+Replace `<your-username>`, `<repo-name>`, and `<filename>.py` with your actual info. The screenshot uses a public GitHub-compatible image link, so it will render correctly in your repo’s README.md preview. If you need further customized sections or want to add more images, let me know! [web:25][web:31]
