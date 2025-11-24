@@ -23,8 +23,7 @@ A desktop GUI application to calculate student average marks and grades for mult
 3. Run the application:
     ```
     python <filename>.py
-    ```
-   Replace `<filename>.py` with your actual script, e.g., `grade_calculator.py`.
+  
 
 ## Testing Instructions
 - Open the application.
@@ -41,9 +40,4 @@ A desktop GUI application to calculate student average marks and grades for mult
 - Create a branch for your feature or fix.
 - Submit a pull request for review.
 
-## License
-MIT License
-
----
-
-Replace `<your-username>`, `<repo-name>`, and `<filename>.py` with your actual info. The screenshot uses a public GitHub-compatible image link, so it will render correctly in your repo’s README.md preview. If you need further customized sections or want to add more images, let me know! [web:25][web:31]
+![GradeCalculator Screenshot](image.png)
